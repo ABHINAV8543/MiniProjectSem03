@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Infinite Trails Travel</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="contactbody">
+    <div class="topnav">
+        <a href="index.html"><i class="fa fa-home"></i> Home</a>
+        <a href="login.html" target="_blank"><i class="fa fa-user"></i> Login | SignUp</a>
+        <a href="about.html"><i class="fa fa-info-circle"></i> About Us</a>
+        <a class="active" href="contact.html"><i class="fa fa-address-book-o"></i> Contact Us</a>
+    </div>
+    <table>
+        <tr>
+            <td><img src="images/logo.png" class="logo"></td>
+            <td>
+                <h1 id="title">Contact Us</h1>
+                <p class="desc">
+                    "We are here to help you plan your dream vacations."
+                </p>
+            </td>
+        </tr>
+    </table>
+    <div class="contact-section">
+        <div class="form-container">
+            <h2>Get in Touch</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required class="inp">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required class="inp">
+
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" placeholder="Your Phone Number" class="inp">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." rows="6" required class="inp"></textarea>
+
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </div>
+        <div class="info-container">
+            <h2>Contact Information</h2>
+            <p><i class="fa fa-map-marker"></i> Infinite Trails Travel, Main Street, Ghaziabad, Uttar Pradesh, India</p>
+            <p><i class="fa fa-phone"></i> +91 1234 5679 90</p>
+            <p><i class="fa fa-envelope"></i> info@infinitetrails.com</p>
+            <h2>Follow Us</h2>
+            <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+    <hr class="btm">
+    <p class="cinfo"><i class="fa fa-copyright"></i> Infinite Trails Travel - 2024</p>
+</body>
+</html>
