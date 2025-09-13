@@ -1,0 +1,134 @@
+#dashboardbody {
+    background-color: #00c8ff;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dashboard-container {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+}
+
+.sidebar h3 {
+    text-align: center;
+    color: rgb(255, 196, 0);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    color: rgb(255, 196, 0);
+}
+
+.main-content {
+    width: 75%;
+    margin-left: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+.profile-details {
+    line-height: 1.8;
+}
+
+.btn-edit {
+    background-color: rgb(255, 196, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    background-color: white;
+    color: black;
+}
+
+.bookings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.bookings-table th, .bookings-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.bookings-table th {
+    background-color: rgb(255, 196, 0);
+    color: black;
+}
+
+.saved-destinations {
+    display: flex;
+    gap: 20px;
+}
+
+.desti-card {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+}
+
+.desti-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn-remove {
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-remove:hover {
+    background-color: red;
+}
+.cinfo{
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    padding: 3px;
+    }
+.logo{
+    display: inline-block;
+    width: 350px; 
+    height: 350px;
+    }

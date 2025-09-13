@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Infinite Trails Travel</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="dashboardbody">
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <td><img src="images/logo.png" class="logo"></td>
+            <h3>Welcome, Abhinav_0810</h3>
+            <ul>
+                <li><a href="#profile"><i class="fa fa-user-circle"></i> Profile</a></li>
+                <li><a href="#bookings"><i class="fa fa-briefcase"></i> My Bookings</a></li>
+                <li><a href="#saved"><i class="fa fa-heart"></i> Saved Destinations</a></li>
+                <li><a href="index.html"><i class="fa fa-sign-out"></i> Logout</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div id="profile" class="section">
+                <h2><i class="fa fa-user-circle"></i> Profile</h2>
+                <div class="profile-details">
+                    <p><strong>Name:</strong> Abhinav Anand</p>
+                    <p><strong>Email:</strong> abhinav.23b0101091@abes.ac.in</p>
+                    <p><strong>Phone:</strong> +91 9935422944</p>
+                    <button class="btn-edit">Edit Profile</button>
+                </div>
+            </div>
+            <div id="bookings" class="section">
+                <h2><i class="fa fa-briefcase"></i> My Bookings</h2>
+                <table class="bookings-table">
+                    <tr>
+                        <th>Destination</th>
+                        <th>Package</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Goa</td>
+                        <td>Goa + Mumbai</td>
+                        <td>7 Days</td>
+                        <td>Confirmed</td>
+                    </tr>
+                    <tr>
+                        <td>Ladakh</td>
+                        <td>Ladakh + Srinagar</td>
+                        <td>8 Days</td>
+                        <td>Pending</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="saved" class="section">
+                <h2><i class="fa fa-heart"></i> Saved Destinations</h2>
+                <div class="saved-destinations">
+                    <div class="desti-card">
+                        <img src="images/jaipur.webp" alt="Jaipur">
+                        <h4>Jaipur</h4>
+                        <button class="btn-remove">Remove</button>
+                    </div>
+                    <div class="desti-card">
+                        <img src="images/varanasi.jpeg" alt="Varanasi">
+                        <h4>Varanasi</h4>
+                        <button class="btn-remove">Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="btm">
+    <p class="cinfo"><i class="fa fa-copyright"></i> Infinite Trails Travel - 2024</p>
+</body>
+</html>
